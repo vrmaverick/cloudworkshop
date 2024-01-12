@@ -49,6 +49,66 @@ sshkey se kiya hoga toh yeh command use karo :
  ssh -i {path of pem key}/username@ipaddress
 
 
+how to deploy flask on server : 
+
+app.py mai code hai
+port 5000 pe acess karega
+
+flask locally installed hai github pe dall denge and url generate karega
+
+fir server ko access karo : pehle root user pe switch karo (linux)
+admin(windows)
+[sudo su]
+
+vi app.py (directly) create app.py and type code +(i) for insert
+
+to save ESC
+:wq <enter]
+
+Need to install all dependencies even pip so we need to install it
+
+If python is installed locally
+[apt update]
+[apt upgrade]
+
+install pip and flask :
+
+[apt install python3 pip]
+[pip3 install flask]
+[htop] for cpu management
+[python3 app.py] to run flask
+
+To deploy we need to configure network inbound port rule  settings and give access to ip address dash board mai jaa ke and if myIp address hoga toh same device hii access kar paayegi 
+
+Just figure out how to keep it deployed.
+
+
+****************************************
+
+Create a web app (PaaS) we need unique name
+publish : code/static webpage
+Runtime stack : The code you used in (python3.8)
+
+\ after deploying take the custom domain and open deployment center
+
+
+Either push from Github or manually push using git ;
+
+git clone https://github.com/vrmaverick/Flask_Implementation.git
+ls
+cd Flask_Implementation/
+ls
+
+
+Storage ::::::::::::::::::::::::::::::::
+
+Docker :::
+
+
+
+ 
+
+
 
 
 
