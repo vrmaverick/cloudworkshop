@@ -1,0 +1,58 @@
+Cloud Computing notes
+
+
+structure of azure  :- 
+
+Azure poratal
+tannit : Subscribsion related
+service :
+resources : 
+
+
+We will create a virtual machine and it will be only accessed if we have an active subscription.
+
+Ai and ds ke resources resource group mai daalo name and Virtual machine ka naam rakho for future identification.
+
+Choose a region of Datacenter according to the user.
+
+Availbility does cost but i garuntees copies of VM in diffrent zones also do explore security default is standard
+
+image is nothing but configueration of operating systems use of linux is prefferd as it is free else it will be charged For AI there are diffrent specific image
+
+Size mai alag alag configueration hai jiski cost vary karti hai month to month
+
+Authentication is a key based association which is more secure than a password 
+
+port ke through hii acess kar sakte hai defualt ssh22 open rahega
+
+select type and space of a disk required as per application basis also affects.
+the  cost
+
+v-net(virtualNetwork) is basically bahar se anne pe authenticate karega par ek baar authenticate hone ke baad too and fro communicate karsakte hai 
+like frontend -backend server which cannot be accesed by public
+
+if diffrent virtual machines are connected using v-net then they can communicate hassle free
+
+Public IP needed hai yaa nahi uska cost padta hai like for website hosting we require a IP
+
+Then we can deploy if we want to change more.
+
+Important :::::: Access Control feature after deployment ............ hum role bana sakte hai access de sakte hai particual cheezo ki good during production Eamil password generate hoga just like wordpress.
+
+For accessing 
+Username
+Password
+IP address : 
+20.235.114.214
+
+sshkey se kiya hoga toh yeh command use karo :
+ ssh -i {path of pem key}/username@ipaddress
+
+
+
+
+
+
+
+
+
