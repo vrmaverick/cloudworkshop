@@ -1,0 +1,48 @@
+Jenkins :
+
+for continuous deployment and pipelining mounting dmounting  [mainly used for cicd pipeline].
+opensource
+
+1) devlopment done on dev environment.
+2) next stage is preprod test before production .
+3) production (devops engineer kargea).
+
+Pulls from git repos and automatically updates if necessary or asks for approvals depending on norms of the company.  
+
+we can have master slave architecture depending on number of parellel jobs or commits on repositories.
+
+There are many paid tools like banboo gitlab ....etc.
+
+uSERNAME : vedant
+pASSWORD : Dmce123!@#$%
+iP : 
+52.140.120.105
+
+
+jenkins installation command after logging to server :
+
+Jenkins@52.140.120.105
+
+Jenkins Installation Steps
+
+1(curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+/usr/share/keyrings/jenkins-keyring.asc > /dev/null)
+    
+    
+    Then add a Jenkins apt repository entry: second command:-
+    
+2(echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/" | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null)
+    
+    
+  3(sudo apt-get update)
+  4(sudo apt-get install fontconfig openjdk-11-jre)
+  5(sudo apt-get install jenkins)
+
+to access the jenkins password : cat /var/lib/jenkins/secrets/initialAdminPassword
+
+ uncheck and install on the server port
+Jenkins account 
+username : vydmce
+password :vydmce123!@#
+full name : vdyd
+
